@@ -7,5 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlecMunguia/liri-node-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlecMunguia/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/AlecMunguia/liri-node-app#readme",
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }
